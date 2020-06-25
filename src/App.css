@@ -1,0 +1,3 @@
+.is-current::after {
+  width: 100% !important;
+}
