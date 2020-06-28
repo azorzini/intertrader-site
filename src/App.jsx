@@ -7,6 +7,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 
+
 const App = () => {
   return (
     <div className="App" data-spy="scroll" data-target="navigationbar" data-offset="200">
