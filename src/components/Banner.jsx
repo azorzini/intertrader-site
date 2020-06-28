@@ -4,7 +4,7 @@ import styled from "styled-components";
 import intro from "../img/intro-bg.jpg";
 
 const Banner = () => (
-  <header id="banner">
+  <div id="banner">
     <Intro style={{ backgroundImage:`url(${intro})` }}>
       <Overlay>
         <Container>
@@ -19,7 +19,7 @@ const Banner = () => (
         </Container>
       </Overlay>
     </Intro>
-  </header>
+  </div>
 )
 
 export default Banner;
