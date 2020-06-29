@@ -32,6 +32,10 @@ export const StyledpP = styled.p`
   color: #777;
 `;
 
+export const SectionTitlep = styled(StyledpP)`
+  font-size: 18px;
+`;
+
 export const StyledImg = styled.img`
   display: block;
   max-width: 100%;
@@ -41,6 +45,9 @@ export const StyledImg = styled.img`
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0,0,0,0.06);
+  @media (max-width: 768px) {
+    margin: 50px 0;
+  }
 `;
 
 export const Styledul = styled.ul`

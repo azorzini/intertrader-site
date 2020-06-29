@@ -10,9 +10,6 @@ const About = () => (
     <Container>
       <Row>
         <Col xs={12} md={6}>
-          <StyledImg src={AboutImg} alt="" />
-        </Col>
-        <Col xs={12} md={6}>
           <div>
             <Abouth2>About Us</Abouth2>
             <Aboutp>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -39,6 +36,9 @@ const About = () => (
               </Col>
             </Row>
           </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <StyledImg src={AboutImg} alt="" />
         </Col>
       </Row>
     </Container>
