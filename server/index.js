@@ -1,3 +1,4 @@
+/*
 const path = require('path');
 const express = require('express');
 const transporter = require('./config');
@@ -41,3 +42,4 @@ app.post('/send', (req, res) => {
 app.listen(3030, () => {
   console.log('server start on port 3030');
 });
+*/

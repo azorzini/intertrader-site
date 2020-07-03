@@ -4,11 +4,11 @@ import styled from "styled-components";
 import {SectionTitleh2, Styledh3} from "./common.styled";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
-import axios from 'axios';
+//import axios from 'axios';
 
 const Contact = () => {
 
-  const [state, setState] = useState({
+/*  const [state, setState] = useState({
     name: '',
     email: '',
     message: ''
@@ -43,15 +43,15 @@ const Contact = () => {
       ...state,
       [name]: value
     });
-  };
+  };*/
 
   return (
     <StyledDiv>
-      {result && (
+{/*      {result && (
         <p className={`${result.success ? 'success' : 'error'}`}>
           {result.message}
         </p>
-      )}
+      )}*/}
       <Container>
         <Row>
           <Col md={8}>
@@ -60,13 +60,13 @@ const Contact = () => {
                 <ContactTitleh2>Get in touch</ContactTitleh2>
                 <Contactp>Please fill out the form below to send us an email and we will get back to you as soon as possible.</Contactp>
               </ContactSectionTitle>
-              <StyledForm onSubmit={sendEmail}>
+              <StyledForm onSubmit={null}>
                 <Row>
                   <Col md={6}>
                     <Form.Group controlId="name">
                       <Form.Control
-                        onChange={onInputChange}
-                        value={state.name}
+                        onChange={null}
+                        value={''}
                         type="text"
                         placeholder="Name"
                         name="name"
@@ -76,8 +76,8 @@ const Contact = () => {
                   <Col md={6}>
                     <Form.Group controlId="email">
                       <Form.Control
-                        value={state.email}
-                        onChange={onInputChange}
+                        value={''}
+                        onChange={null}
                         type="email"
                         placeholder="Email"
                         name="email"
@@ -87,8 +87,8 @@ const Contact = () => {
                 </Row>
                 <Form.Group controlId="message">
                   <Form.Control
-                    onChange={onInputChange}
-                    value={state.message}
+                    onChange={null}
+                    value={''}
                     required="required"
                     name="message"
                     placeholder="Message"
