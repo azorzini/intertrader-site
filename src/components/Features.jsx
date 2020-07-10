@@ -13,7 +13,7 @@ const Features = () => (
         <SectionTitleh2>Features</SectionTitleh2>
       </SectionTitle>
       <Row>
-        <Col xs={6} md={3}>
+        <Col xs={6} md>
           <StyledI>
             <FontAwesomeIcon icon={faAlignCenter}/>
           </StyledI>
@@ -22,7 +22,7 @@ const Features = () => (
             We provide end-to-end software development services, from creating the concept and design, through to developing and delivering the final product.
           </StyledpP>
         </Col>
-        <Col xs={6} md={2}>
+        <Col xs={6} md>
           <StyledI>
             <FontAwesomeIcon icon={faBuilding}/>
           </StyledI>
@@ -31,7 +31,7 @@ const Features = () => (
             Our partners care about business growth, we care about make it work.
           </StyledpP>
         </Col>
-        <Col xs={6} md={2}>
+        <Col xs={6} md>
           <StyledI>
             <FontAwesomeIcon icon={faRocket}/>
           </StyledI>
@@ -40,7 +40,7 @@ const Features = () => (
             You have the idea. We help design your technical needs, development of the business plan and execution.
           </StyledpP>
         </Col>
-        <Col xs={6} md={2}>
+        <Col xs={6} md>
           <StyledI>
             <FontAwesomeIcon icon={faPodcast}/>
           </StyledI>
@@ -49,7 +49,7 @@ const Features = () => (
             Web Crawlers, Scrappers, Bots. Marketing Competitive Analysis.
           </StyledpP>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={12} md>
           <StyledI>
             <FontAwesomeIcon icon={faIdCard}/>
           </StyledI>
