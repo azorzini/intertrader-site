@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/intertrader-site/static/css/main.f4f4af13.chunk.css",
+    "main.js": "/intertrader-site/static/js/main.55589bc5.chunk.js",
+    "main.js.map": "/intertrader-site/static/js/main.55589bc5.chunk.js.map",
+    "runtime-main.js": "/intertrader-site/static/js/runtime-main.b1802571.js",
+    "runtime-main.js.map": "/intertrader-site/static/js/runtime-main.b1802571.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/intertrader-site/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.09f7dc19.chunk.js": "/intertrader-site/static/js/2.09f7dc19.chunk.js",
+    "static/js/2.09f7dc19.chunk.js.map": "/intertrader-site/static/js/2.09f7dc19.chunk.js.map",
+    "index.html": "/intertrader-site/index.html",
+    "precache-manifest.8f7b91264cb14294f6e1c3f6358347bd.js": "/intertrader-site/precache-manifest.8f7b91264cb14294f6e1c3f6358347bd.js",
+    "service-worker.js": "/intertrader-site/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/intertrader-site/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.f4f4af13.chunk.css.map": "/intertrader-site/static/css/main.f4f4af13.chunk.css.map",
+    "static/js/2.09f7dc19.chunk.js.LICENSE.txt": "/intertrader-site/static/js/2.09f7dc19.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/intertrader-site/static/media/about.5b6dfdf5.jpg",
+    "static/media/intro-bg.jpg": "/intertrader-site/static/media/intro-bg.70a7b4dd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1802571.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.09f7dc19.chunk.js",
+    "static/css/main.f4f4af13.chunk.css",
+    "static/js/main.55589bc5.chunk.js"
+  ]
+}
