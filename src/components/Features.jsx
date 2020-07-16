@@ -19,7 +19,7 @@ const Features = () => (
           </StyledI>
           <Styledh3>Software development</Styledh3>
           <StyledpP>
-            We provide end-to-end software development services, from creating the concept and design, through to developing and delivering the final product.
+            We provide end-to-end software development services from concept creation and design, to development and final product delivery.
           </StyledpP>
         </Col>
         <Col xs={6} md>
@@ -28,7 +28,7 @@ const Features = () => (
           </StyledI>
           <Styledh3>Infrastructure Solutions</Styledh3>
           <StyledpP>
-            Our partners care about business growth, we care about make it work.
+            While our clients focus on scaling their business, we make sure what needs to work, works.
           </StyledpP>
         </Col>
         <Col xs={6} md>
@@ -37,7 +37,7 @@ const Features = () => (
           </StyledI>
           <Styledh3>Consultancy, Startups & Tech Partnership</Styledh3>
           <StyledpP>
-            You have the idea. We help design your technical needs, development of the business plan and execution.
+            It’s your idea – we help design its technical needs, develop a business plan, and launch through execution.
           </StyledpP>
         </Col>
         <Col xs={6} md>
@@ -46,7 +46,7 @@ const Features = () => (
           </StyledI>
           <Styledh3>Software as a Service</Styledh3>
           <StyledpP>
-            Web Crawlers, Scrappers, Bots. Marketing Competitive Analysis.
+            Web Crawlers, Scrappers, Bots. Marketing Analysis and Competitive Diligence.
           </StyledpP>
         </Col>
         <Col xs={12} md>
@@ -55,7 +55,7 @@ const Features = () => (
           </StyledI>
           <Styledh3>Small business Solutions</Styledh3>
           <StyledpP>
-            Institutional web development, e-marketing, adds in Google SEO SEM, e-commerce, CRM, mobile apps iOS/Android.
+            Institutional web development, e-marketing, promotion in Google SEO SEM, e-Commerce, CRM, mobile apps iOS / Android.
           </StyledpP>
         </Col>
       </Row>
